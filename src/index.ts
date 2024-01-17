@@ -27,7 +27,7 @@ export async function run(
   
   let result;
   try {
-    result = wrappedFunction();
+    result = await wrappedFunction();
   } catch (e) {
     console.error(e);
   }
