@@ -1,8 +1,3 @@
-# @golden-tiger/js-runner
-
-JavaScript Runner
-
-```
 export declare function run({ code, lexicalEnvironment, executeContext, }: {
     code: string;
     lexicalEnvironment?: any;
@@ -11,4 +6,3 @@ export declare function run({ code, lexicalEnvironment, executeContext, }: {
     result: any;
     duration: number;
 }>;
-```
